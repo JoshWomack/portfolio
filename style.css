@@ -1,0 +1,117 @@
+ * {
+   box-sizing: border-box;
+   font-family: monospace, Helvetica, sans-serif;
+ }
+
+ div,
+ section {
+   margin: 0;
+   margin: 0;
+   padding: 0;
+ }
+
+
+
+ a {
+   text-decoration: none;
+   color: inherit;
+
+ }
+
+ ul {
+   list-style: none;
+ }
+
+
+
+ body {
+   font-family: Arial, Helvetica, sans-serif,
+     sans-serif;
+   font-size: 20px;
+   color: #444;
+   text-align: center;
+   line-height: 1.5;
+ }
+
+ nav,
+ footer {
+   padding: 1% 0;
+   background-color: #aaa;
+ }
+
+ nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 10;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5%;
+ }
+
+ nav h2 {
+   font-size: 1em;
+ }
+
+ nav ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   ;
+ }
+
+ nav li {
+   margin-right: 20px;
+ }
+
+ header {
+   padding: 12% 5%;
+   background-color: #999;
+   margin-bottom: 40px;
+ }
+
+ .top-space {
+   min-height: 110px;
+   margin-top: -8px;
+ }
+
+ section {
+   min-height: 200px;
+ }
+
+ .projects {
+   margin: 0;
+ }
+
+ .projects-container img {
+   width: 80%;
+ }
+
+ .projects-container h2 {
+   margin-bottom: 40px;
+ }
+
+ .project {
+   margin: 30px 0;
+   background-color: #999;
+   padding: 15px 10px;
+ }
+
+ .contact {
+   margin-bottom: 30px;
+   margin-top: 0px;
+
+ }
+
+ .contact-info {
+   background-color: #999;
+   padding: 10px;
+ }
+
+
+ footer {
+   padding: 10px;
+   font-size: .8em;
+ }
