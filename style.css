@@ -18,6 +18,15 @@
 
  }
 
+ li a:hover {
+   color: black;
+
+ }
+
+ .projects-container a:hover {
+   color: black;
+ }
+
  ul {
    list-style: none;
  }
@@ -29,14 +38,16 @@
      sans-serif;
    font-size: 20px;
    color: #444;
-   text-align: center;
+   /* text-align: center; */
    line-height: 1.5;
  }
 
  nav,
  footer {
    padding: 1% 0;
-   background-color: #aaa;
+   background-color: #FF6542;
+   color: white;
+
  }
 
  nav {
@@ -52,7 +63,7 @@
  }
 
  nav h2 {
-   font-size: 1em;
+   font-size: 1.5em;
  }
 
  nav ul {
@@ -68,8 +79,8 @@
 
  header {
    padding: 12% 5%;
-   background-color: #999;
    margin-bottom: 40px;
+   padding-left: 15%;
  }
 
  .top-space {
@@ -85,8 +96,16 @@
    margin: 0;
  }
 
+ .projects-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
  .projects-container img {
-   width: 80%;
+   width: 100%;
+   max-width: 400px;
+   border: 2px solid black;
  }
 
  .projects-container h2 {
@@ -95,23 +114,35 @@
 
  .project {
    margin: 30px 0;
-   background-color: #999;
    padding: 15px 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 300px;
+   max-width: 30%;
+   background-color: #50A2A7;
+   color: white;
  }
+
 
  .contact {
    margin-bottom: 30px;
    margin-top: 0px;
-
  }
 
  .contact-info {
-   background-color: #999;
+   background-color: #50A2A7;
+   color: white;
    padding: 10px;
+   padding-left: 10%;
  }
 
 
  footer {
    padding: 10px;
    font-size: .8em;
+ }
+
+ main h2 {
+   margin-left: 20%;
  }
