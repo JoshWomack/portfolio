@@ -1,6 +1,6 @@
  * {
    box-sizing: border-box;
-   font-family: monospace, Helvetica, sans-serif;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
  }
 
  div,
@@ -20,7 +20,6 @@
 
  li a:hover {
    color: black;
-
  }
 
  .projects-container a:hover {
@@ -31,11 +30,13 @@
    list-style: none;
  }
 
-
+ h1 {
+   color: #0099cc;
+   font-weight: bold;
+ }
 
  body {
-   font-family: Arial, Helvetica, sans-serif,
-     sans-serif;
+   font-family: sans-serif;
    font-size: 20px;
    color: #444;
    /* text-align: center; */
@@ -45,9 +46,8 @@
  nav,
  footer {
    padding: 1% 0;
-   background-color: #FF6542;
+   background-color: #282828;
    color: white;
-
  }
 
  nav {
@@ -80,7 +80,6 @@
  header {
    padding: 12% 5%;
    margin-bottom: 40px;
-   padding-left: 15%;
  }
 
  .top-space {
@@ -114,13 +113,13 @@
 
  .project {
    margin: 30px 0;
-   padding: 15px 10px;
+   padding: 15px 20px;
    display: flex;
    flex-direction: column;
    align-items: center;
    min-width: 300px;
    max-width: 30%;
-   background-color: #50A2A7;
+   background-color: #999999;
    color: white;
  }
 
@@ -131,7 +130,7 @@
  }
 
  .contact-info {
-   background-color: #50A2A7;
+   background-color: #999999;
    color: white;
    padding: 10px;
    padding-left: 10%;
@@ -145,4 +144,21 @@
 
  main h2 {
    margin-left: 20%;
+ }
+
+ @media only screen and (min-width: 615px) {
+   main {
+     max-width: 80vw;
+     margin: auto;
+   }
+
+   nav ul {
+     display: flex;
+     flex-direction: row;
+   }
+
+   header {
+     padding-left: 15%;
+   }
+
  }
